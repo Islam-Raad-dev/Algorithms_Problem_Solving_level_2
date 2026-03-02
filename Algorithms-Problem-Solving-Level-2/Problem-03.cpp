@@ -1,5 +1,5 @@
-#include <iostream>   
-#include <string>     
+#include <iostream>
+#include <string>
 using namespace std;
 
 int ReadPositiveNumber(string Message)
@@ -8,16 +8,15 @@ int ReadPositiveNumber(string Message)
     do
     {
         cout << Message << endl;
-        cin >> Number;         
-    } while (Number <= 0);   
-    
-    return Number;        
+        cin >> Number;
+    } while (Number <= 0);
+
+    return Number;
 }
 
 bool isPerfectNumber(int Number)
 {
     int Sum = 0;
-    
 
     for (int i = 1; i < Number; i++)
     {
@@ -25,11 +24,9 @@ bool isPerfectNumber(int Number)
         if (Number % i == 0)
             Sum += i;
     }
-    
 
     return Number == Sum;
 }
-
 
 void PrintResults(int Number)
 {
@@ -40,11 +37,10 @@ void PrintResults(int Number)
         cout << Number << " Is NOT Perfect Number.\n";
 }
 
-
 int main()
 {
-  
+
     PrintResults(ReadPositiveNumber("Please enter a positive number?"));
-    
+
     return 0;
 }
