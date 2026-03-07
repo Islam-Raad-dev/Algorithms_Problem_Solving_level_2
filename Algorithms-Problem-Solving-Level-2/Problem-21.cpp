@@ -100,7 +100,7 @@ int main()
 {
     srand((unsigned)time(NULL));
 
-    GenrateKeys(ReadPositiveNumber("Please Enter How Many Key To Genrate: "));
+    GenrateKeys(ReadPositiveNumber("Please Enter How Many Key To Generate: "));
 
     return 0;
 }
