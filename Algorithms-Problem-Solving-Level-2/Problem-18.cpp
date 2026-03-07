@@ -2,36 +2,36 @@
 #include <string>
 using namespace std;
 
-string ReadUserName(string Massege)
+string ReadUserName(string Message)
 {
 
     string Text;
 
-    cout << Massege;
+    cout << Message;
     getline(cin, Text);
 
     return Text;
 }
 
-string EncryptText(string Text, short EncryptonKey)
+string EncryptText(string Text, short EncryptionKey)
 {
 
-    for (int i = 0; i <= Text.length(); i++)
+    for (int i = 0; i < Text.length(); i++)
     {
 
-        Text[i] = char((int)Text[i] + EncryptonKey);
+        Text[i] = char((int)Text[i] + EncryptionKey);
     }
 
     return Text;
 }
 
-string DecryptText(string Text, short EncryptonKey)
+string DecryptText(string Text, short EncryptionKey)
 {
 
-    for (int i = 0; i <= Text.length(); i++)
+    for (int i = 0; i < Text.length(); i++)
     {
 
-        Text[i] = char((int)Text[i] - EncryptonKey);
+        Text[i] = char((int)Text[i] - EncryptionKey);
     }
 
     return Text;
@@ -43,12 +43,12 @@ int main()
     const short EncryptionKey = 2;
 
     string Text = ReadUserName("Please Enter Your Name: ");
-    string TextAfterEncyption = EncryptText(Text, EncryptionKey);
-    string TextAfterDecyption = DecryptText(TextAfterEncyption, EncryptionKey);
+    string TextAfterEncryption = EncryptText(Text, EncryptionKey);
+    string TextAfterDecryption = DecryptText(TextAfterEncryption, EncryptionKey);
 
     cout << "\nText Before Encryption = " << Text << endl;
-    cout << "Text After Encryption = " << TextAfterEncyption << endl;
-    cout << "Text After Decryption = " << TextAfterDecyption << endl;
+    cout << "Text After Encryption = " << TextAfterEncryption << endl;
+    cout << "Text After Decryption = " << TextAfterDecryption << endl;
 
     return 0;
 }
