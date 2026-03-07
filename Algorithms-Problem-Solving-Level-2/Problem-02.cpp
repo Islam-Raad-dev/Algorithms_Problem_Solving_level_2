@@ -34,7 +34,7 @@ enPrime Check_Prime_Number(int Number)
 void Print_Prime_Number_Form_1_to_N(int Number)
 {
 
-    cout << "_________________________\n\n";
+    cout << "________________________\n\n";
     cout << "Prime Number From " << 1 << " To " << Number;
     cout << " Are : \n" << endl;
     
