@@ -46,6 +46,6 @@ void PrintPerfectNumbersFrom1ToN(int Number)
 int main()
 {
 
-    PrintPerfectNumbersFrom1ToN(ReadPositiveNumber("Please enter a positive number?"));
+    PrintPerfectNumbersFrom1ToN(ReadPositiveNumber("Please Enter a Positive Number:"));
 
     return 0;

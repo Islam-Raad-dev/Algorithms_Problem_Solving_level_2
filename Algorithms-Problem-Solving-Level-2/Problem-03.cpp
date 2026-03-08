@@ -32,9 +32,9 @@ void PrintResults(int Number)
 {
 
     if (isPerfectNumber(Number))
-        cout << Number << " Is Perfect Number.\n";
+        cout << Number << "  Is Perfect Number.\n";
     else
-        cout << Number << " Is NOT Perfect Number.\n";
+        cout << Number << "  Is NOT Perfect Number.\n";
 }
 
 int main()

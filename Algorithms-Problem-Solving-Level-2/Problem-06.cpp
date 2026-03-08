@@ -19,7 +19,7 @@ int ReadPositiveNumber(string Message)
 int SumOfDigits(int Number)
 {
 
-    int Sum = 0, Remainder = 10;
+    int Sum = 0 , Remainder = 10;
 
     while (Number > 0)
     {
