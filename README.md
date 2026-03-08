@@ -48,11 +48,4 @@ At the end of this course, I will be implementing two comprehensive projects:
 
 ---
 
-##  Certification Goal
-By completing this level, I aim to verify my ability to:
-- Solve intermediate algorithmic problems.
-- Transition from problem solving to project development.
-- Prepare for advanced programming and Artificial Intelligence challenges.
-
----
 "Practice builds experience. Experience builds real programmers."
