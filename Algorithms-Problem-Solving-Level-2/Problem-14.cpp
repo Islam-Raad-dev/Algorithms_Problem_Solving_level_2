@@ -35,7 +35,7 @@ int PrintPateern(int Number)
 int main()
 {
 
-    PrintPateern(ReadPositiveNumber("Please Enter A Positive Number: "));
+    PrintPateern(ReadPositiveNumber("Please Enter A Positive Number:  "));
 
     return 0;
 }
