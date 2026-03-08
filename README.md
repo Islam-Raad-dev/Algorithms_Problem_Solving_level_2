@@ -1,4 +1,4 @@
-# 📘 Algorithms & Problem-Solving – Level 2
+#  Algorithms & Problem-Solving – Level 2
 
 Welcome to my repository for **Level 2** of the Algorithms & Problem-Solving series. This course is a pivotal bridge in my journey from understanding syntax to building real-world programming experience.
 
@@ -7,10 +7,10 @@ Welcome to my repository for **Level 2** of the Algorithms & Problem-Solving ser
 
 ---
 
-## 🚀 Overview
+##  Overview
 This is the 5th course in my programming roadmap. After mastering the foundations in Level 1 and learning to write Clean Code using "Divide and Conquer," I am now focusing on applying those principles to more complex challenges.
 
-### 🧠 The Methodology
+###  The Methodology
 My approach in this repository follows the **Attempt → Fail → Learn → Improve** cycle:
 1.  **Independent Attempt:** Trying to solve each problem from scratch.
 2.  **Reflection:** Comparing my logic with professional solutions.
@@ -18,7 +18,7 @@ My approach in this repository follows the **Attempt → Fail → Learn → Impr
 
 ---
 
-## 📖 What I’m Learning
+##  What I’m Learning
 * **Complex Logic:** Tackling 50 new, intermediate-level algorithmic problems.
 * **Pattern Recognition:** Identifying common algorithmic patterns across different problems.
 * **Clean Code under Pressure:** Maintaining high-quality code even as the logic gets harder.
@@ -27,7 +27,7 @@ My approach in this repository follows the **Attempt → Fail → Learn → Impr
 
 ---
 
-## 🧱 Repository Structure
+##  Repository Structure
 The repository is organized into two main sections:
 
 ### 1. The 50 Problem Challenge
@@ -41,14 +41,14 @@ At the end of this course, I will be implementing two comprehensive projects:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 * **Language:** C++
 * **Principles:** Clean Code, Divide & Conquer, Algorithmic Optimization.
 * **Environment:** GitHub Codespaces / VS Code.
 
 ---
 
-## 🎓 Certification Goal
+##  Certification Goal
 By completing this level, I aim to verify my ability to:
 - Solve intermediate algorithmic problems.
 - Transition from problem solving to project development.
