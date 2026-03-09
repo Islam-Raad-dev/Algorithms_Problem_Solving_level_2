@@ -11,7 +11,7 @@ int ReadPositiveNumber(string Message)
     {
         cout << Message;
         cin >> Number;
-    } while (Number <= 0);
+    } while (Number <= 0 );
 
     return Number;
 }
