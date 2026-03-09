@@ -37,7 +37,7 @@ void PrintDigit(int Number)
 
     int Remainder = 0;
 
-    while (Number > 0)
+    while (Number > 0 )
     {
         Remainder = Number % 10;
         Number = Number / 10;
