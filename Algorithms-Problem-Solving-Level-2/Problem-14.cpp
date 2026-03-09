@@ -16,7 +16,7 @@ int ReadPositiveNumber(string Message)
     return Number;
 }
 
-int PrintPateern(int Number)
+int PrintPateern(int Number )
 {
 
     for (int i = 65 + Number - 1; i >= 65; i--)
