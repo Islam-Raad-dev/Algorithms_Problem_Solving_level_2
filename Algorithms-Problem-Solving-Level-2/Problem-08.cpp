@@ -25,7 +25,7 @@ int CountDigitFrequency(short DigitToCheck, int Number)
     {
 
         Remainder = Number % 10;
-        Number = Number / 10;
+        Number = Number /  10;
 
         if (DigitToCheck == Remainder)
         {
