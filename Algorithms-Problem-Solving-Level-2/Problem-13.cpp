@@ -28,7 +28,7 @@ int PrintPateern(int Number)
             cout << i;
         }
 
-        cout << "\n";
+        cout << "\n ";
     }
 }
 
