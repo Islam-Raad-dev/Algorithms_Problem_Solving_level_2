@@ -42,7 +42,7 @@ int main()
 {
 
     if (CheckPalindromNumber(ReadPositiveNumber("Please Enter A Positive Number: ")))
-        cout << "\n Yes , It is a PalindromNumber\n";
+        cout << "\n  Yes , It is a PalindromNumber\n";
     else
         cout << "\n No , It is Not a Palindrom Number.\n";
 
