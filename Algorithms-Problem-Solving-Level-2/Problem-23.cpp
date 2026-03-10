@@ -1,16 +1,48 @@
 #include <iostream>
+#include<string>
+#include<cstdlib>
 using namespace std;
 
-int ReadPositiveNumber(string Message)
+int RandomNumber(int From, int To)
 {
 
-    int Number = 0;
+    int randNumb = rand() % (To - From + 1) + From;
 
-    do
+    return randNumb;
+}
+
+void FillArrayWithRandomNumber(int arr[100], int& arrLength){
+
+    cout<<"\nEnter Number Of Element: ";
+    cin>>arrLength;
+
+    for(int i = 0; i <= arrLength; i++){
+        arr[i] = RandomNumber(1, 100);
+    }
+
+}
+
+void PrintArray(int arr[100], int& arrLength)
+{
+
+    for (int i = 0; i <= arrLength; i++)
     {
-        cout << Message;
-        cin >> Number;
-    } while (Number <= 0);
+        cout << arr[i] << " ";
+    }
+    cout << "\n";
+}
 
-    return Number;
+int main(){
+
+    srand((unsigned)time(NULL));
+
+    int arr[100], arrLength;
+
+    FillArrayWithRandomNumber(arr,arrLength);
+
+    cout<<"\nArray Element: ";
+    PrintArray(arr, arrLength);
+
+
+    return 0;
 }
