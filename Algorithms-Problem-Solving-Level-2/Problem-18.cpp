@@ -47,7 +47,7 @@ int main()
     string TextAfterDecryption = DecryptText(TextAfterEncryption, EncryptionKey);
 
     cout << "\nText Before Encryption  = " << Text << endl;
-    cout << "Text After Encryption = " << TextAfterEncryption << endl;
+    cout << "Text After Encryption  = " << TextAfterEncryption << endl;
     cout << "Text After Decryption = " << TextAfterDecryption << endl;
 
     return 0;
