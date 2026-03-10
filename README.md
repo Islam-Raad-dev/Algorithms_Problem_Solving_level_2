@@ -8,7 +8,7 @@ Welcome to my repository for **Level 2** of the Algorithms & Problem-Solving ser
 ---
 
 ##  Overview
-This is the 5th course in my programming roadmap. After mastering the foundations in Level 1 and learning to write Clean Code using "Divide and Conquer," I am now focusing on applying those principles to more complex challenges. [cite: 2026-02-15]
+This is the 5th course in my programming roadmap. After mastering the foundations in Level 1 and learning to write Clean Code using "Divide and Conquer," I am now focusing on applying those principles to more complex challenges.
 
 ###  The Methodology
 My approach in this repository follows the **Attempt → Fail → Learn → Improve** cycle:
@@ -42,17 +42,17 @@ At the end of this course, I will be implementing two comprehensive projects:
 ---
 
 ##  Technologies Used
-* **Language:** C++ [cite: 2026-02-14]
+* **Language:** C++ 
 * **Principles:** Clean Code, Divide & Conquer, Algorithmic Optimization.
 * **Environment:** GitHub Codespaces / VS Code.
 
 ---
 
 ##  Certification Goal
-By completing this level, I aim to verify my ability to:
+By completing this level, I a im to verify my ability to:
 - Solve intermediate algorithmic problems.
 - Transition from problem solving to project development.
-- Prepare for advanced programming and Artificial Intelligence challenges. [cite: 2025-12-31]
+- Prepare for advanced programming and Artificial Intelligence challenges.
 
 ---
 
