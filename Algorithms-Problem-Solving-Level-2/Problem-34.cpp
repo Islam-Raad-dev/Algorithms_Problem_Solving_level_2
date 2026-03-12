@@ -52,3 +52,46 @@ int ReadNumber()
     return Number;
 }
 
+int FindNumberPositionInArray(int Number, int arr[100], int arrLength)
+{
+
+    for (int i = 0; i < arrLength; i++)
+    {
+        if (arr[i] == Number)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+
+int main()
+{
+
+    srand((unsigned)time(NULL));
+
+    int arr[100];
+    int arrLength = Read_Positive_Number("Please Enter Number Of Elements: ");
+
+    Fill_Array_With_Random_Numbers(arr, arrLength);
+
+    cout << "\nArray 1 Element: ";
+    Print_Array(arr, arrLength);
+
+    int Number = ReadNumber();
+    cout << "\nNumber Your Are Looking For Is: " << Number << endl;
+
+    short NumberPosition = FindNumberPositionInArray(Number, arr, arrLength);
+
+    if (NumberPosition == -1)
+    {
+        cout << "The Number Is Not Found.\n";
+    }
+    else
+    {
+        cout << "The Number Found At Position: " << NumberPosition << endl;
+        cout << "The Number Found Its Order: " << NumberPosition + 1 << endl;
+    }
+
+    return 0;
+}
