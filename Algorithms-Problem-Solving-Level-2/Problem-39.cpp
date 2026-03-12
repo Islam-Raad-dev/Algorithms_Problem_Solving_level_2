@@ -19,7 +19,7 @@ int Random_Number(int From, int To)
 
 void Fill_Array_With_Random_Numbers(int arr[100], int &arrLength)
 {
-    cout << "\nEnter number of Elements: ";
+    cout << "\nEnter Number of Elements: ";
     cin >> arrLength;
 
     for (int i = 0; i < arrLength; i++)
