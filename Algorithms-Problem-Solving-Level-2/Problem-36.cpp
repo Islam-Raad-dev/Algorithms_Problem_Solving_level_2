@@ -27,7 +27,7 @@ void InputUserNumberInArray(int arr[100], int &arrLength)
     {
         AddArrayElement(Read_Number(), arr, arrLength);
 
-        cout << "\n Do You Want To Add More Numbers [0]: No, [1]: Yes ?";
+        cout << "\nDo You Want To Add More Numbers [0]: No, [1]: Yes ?";
         cin >> AddMore;
 
     } while (AddMore);
