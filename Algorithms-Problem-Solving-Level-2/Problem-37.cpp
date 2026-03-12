@@ -11,7 +11,7 @@ int RandomNumber(int From, int To)
 
 void FillArrayWithRandomNumbers(int arr[100], int &arrLength)
 {
-    cout << "\nEnter number of elements:\n";
+    cout << "\nEnter number of Elements:\n";
     cin >> arrLength;
 
     for (int i = 0; i < arrLength; i++)
