@@ -22,7 +22,7 @@ int main()
 
     float Number = Read_Number();
 
-    cout << "\nMy Sqrt Result:" << My_Sqrt(Number) << endl;
+    cout << "\nMy Sqrt Result:" << My_Sqrt(Number ) << endl;
 
     cout << "\nC++ Sqrt Result:" << sqrt(Number) << endl;
 
