@@ -32,7 +32,7 @@ int Count_Positive_Numbers(int arr[200], int arrLength)
 
     for (int i = 0; i < arrLength; i++)
     {
-        if (arr[i] > 0)
+        if (arr[i] >= 0)
         {
             Counter++;
         }
