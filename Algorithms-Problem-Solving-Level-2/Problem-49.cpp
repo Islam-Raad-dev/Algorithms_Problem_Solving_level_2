@@ -1,52 +1,47 @@
 #include <iostream>
-#include <cmath>
+#include<cmath>
 using namespace std;
+
+
+float Get_Fraction_Part(float Number)
+{
+    return Number - int(Number);
+}
+
+int My_Ceil(float Number)
+{
+
+    if (abs(Get_Fraction_Part(Number)) > 0)
+    {
+        if (Number > 0)
+            return int(Number) + 1;
+        else
+            return int(Number); 
+    }
+    else
+        return Number; 
+}
 
 float Read_Number()
 {
-    short Number;
+    float Number; 
 
-    cout << "\n Please Enter A Float Number: ";
-    cin >> Number;
+  
+    cout << "Please enter a number? ";
+    cin >> Number;  
 
     return Number;
 }
 
 
-float Get_Fration_Part(float Number)
-{
-    return Number - int(Number);
-}
-
-float My_Round(float Number)
-{
-
-    int InPart;
-
-    InPart = int(Number);
-
-    float FractionPart = Get_Fration_Part(Number);
-
-    if (abs(FractionPart) >= .5)
-    {
-        if (Number > 0)
-            return ++InPart;
-        else
-            return --InPart;
-    }
-    else
-    {
-        return InPart;
-    }
-}
 int main()
 {
-
     float Number = Read_Number();
 
-    cout << "\nMy Celi Result:" << My_Ceil(Number) << endl;
+  
+    cout << "My MyCeil Result : " << My_Ceil(Number) << endl;
 
-    cout << "\nC++ Ceil Result:" << ceil(Number) << endl;
+    cout << "C++ Ceil Result: " << ceil(Number) << endl;
 
     return 0;
 }
