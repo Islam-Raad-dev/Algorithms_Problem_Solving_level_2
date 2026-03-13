@@ -53,7 +53,7 @@ int main()
     cout << "\nArray Elements:";
     Print_Array(arr, arrLength);
 
-    cout << "\nOdd Numbers Count Is:";
+    cout << "\nEven Numbers Count Is:";
     cout << Count_Even_Numbers(arr, arrLength) << endl;
 
     return 0;
