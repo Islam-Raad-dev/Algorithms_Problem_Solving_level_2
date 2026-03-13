@@ -25,14 +25,14 @@ void Print_Array(int arr[100], int arrLength)
     cout << "\n";
 }
 
-int Count_Odd_Numbers(int arr[100], int arrLength)
+int Count_Even_Numbers(int arr[100], int arrLength)
 {
 
     int Counter = 0;
 
     for (int i = 0; i < arrLength; i++)
     {
-        if (arr[i] % 2 != 0)
+        if (arr[i] % 2 == 0)
         {
             Counter++;
         }
@@ -54,7 +54,7 @@ int main()
     Print_Array(arr, arrLength);
 
     cout << "\nOdd Numbers Count Is:";
-    cout << Count_Odd_Numbers(arr, arrLength) << endl;
+    cout << Count_Even_Numbers(arr, arrLength) << endl;
 
     return 0;
 }
