@@ -9,13 +9,13 @@ int Random_Number(int From, int To)
     return randNum;
 }
 
-void Fill_Array_With_Random_Numbers(int arr[100], int &arrLength)
+void Fill_Array_With_Random_Numbers(int arr[200], int &arrLength)
 {
     cout << "\nEnter Number of Elements: ";
     cin >> arrLength;
 
     for (int i = 0; i < arrLength; i++)
-        arr[i] = Random_Number(1, 100);
+        arr[i] = Random_Number(-100, 100);
 }
 
 void Print_Array(int arr[100], int arrLength)
@@ -25,14 +25,14 @@ void Print_Array(int arr[100], int arrLength)
     cout << "\n";
 }
 
-int Count_Even_Numbers(int arr[100], int arrLength)
+int Count_Positive_Numbers(int arr[200], int arrLength)
 {
 
     int Counter = 0;
 
     for (int i = 0; i < arrLength; i++)
     {
-        if (arr[i] % 2 == 0)
+        if (arr[i] > 0)
         {
             Counter++;
         }
@@ -45,7 +45,7 @@ int main()
 {
     srand((unsigned)time(NULL));
 
-    int arr[100];
+    int arr[200];
     int arrLength;
 
     Fill_Array_With_Random_Numbers(arr, arrLength);
@@ -53,8 +53,8 @@ int main()
     cout << "\nArray Elements:";
     Print_Array(arr, arrLength);
 
-    cout << "\nOdd Numbers Count Is:";
-    cout << Count_Even_Numbers(arr, arrLength) << endl;
+    cout << "\nPositive Numbers Count Is:";
+    cout << Count_Positive_Numbers(arr, arrLength) << endl;
 
     return 0;
 }
