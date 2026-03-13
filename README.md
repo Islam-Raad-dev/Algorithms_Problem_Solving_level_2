@@ -19,7 +19,7 @@ My approach in this repository follows the **Attempt → Fail → Learn → Impr
 ---
 
 ##  What I’m Learning
-* **Complex Logic:** Tackling 50 new, intermediate-level algorithmic problems. [cite: 2026-01-26]
+* **Complex Logic:** Tackling 50 new, intermediate-level algorithmic problems.
 * **Pattern Recognition:** Identifying common algorithmic patterns across different problems.
 * **Clean Code under Pressure:** Maintaining high-quality code even as the logic gets harder.
 * **Project Thinking:** Transitioning from solving isolated problems to building complete projects.
