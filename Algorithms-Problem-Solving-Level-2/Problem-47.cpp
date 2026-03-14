@@ -6,7 +6,7 @@ float Read_Number()
 {
     short Number;
 
-    cout << "\nPlease Enter A Float Number: ";
+    cout << "\n Please Enter A Float Number: ";
     cin >> Number;
 
     return Number;
