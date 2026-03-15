@@ -168,8 +168,7 @@ void StartGame()
 
     do
     {
-        system("cls");
-
+        
         short Rounds = ReadHowManyRounds();
 
         stGameResults GameResults = PlayGame(Rounds);
