@@ -3,7 +3,7 @@
 Welcome to my repository for **Level 2** of the Algorithms & Problem-Solving series. This course is a pivotal bridge in my journey from understanding syntax to building real-world programming experience.
 
 > "Programming is not knowledge or syntax — it is practice. Experience is built through repetition and reflection." 
-> — *Mohammed Abu-Hadhoud*
+> — *Mohammed Abu-Hadhoud* 
 
 ---
 
