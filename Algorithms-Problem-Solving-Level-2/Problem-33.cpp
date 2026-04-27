@@ -9,7 +9,7 @@ int ReadPositiveNumber(string Message)
     int Number = 0;
 
     do
-    {
+    {  
         cout << Message;
         cin >> Number;
     } while (Number <= 0);
