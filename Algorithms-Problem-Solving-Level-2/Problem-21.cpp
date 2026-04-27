@@ -14,7 +14,7 @@ int ReadPositiveNumber(string Message)
         cin >> Number;
     } while (Number <= 0);
 
-    return Number;
+    return Number;   
 }
 
 int RandomNumber(int From, int To)
