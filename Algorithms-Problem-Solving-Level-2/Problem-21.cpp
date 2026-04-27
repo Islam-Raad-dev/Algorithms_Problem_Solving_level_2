@@ -2,7 +2,7 @@
 #include <string>
 #include <cstdlib>
 using namespace std;
-
+   
 int ReadPositiveNumber(string Message)
 {
 
