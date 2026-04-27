@@ -1,7 +1,7 @@
        #include <iostream>
 #include <string>
 #include <cstdlib>
-using namespace std;
+using namespace std;   
    
 int ReadPositiveNumber(string Message)
 {
