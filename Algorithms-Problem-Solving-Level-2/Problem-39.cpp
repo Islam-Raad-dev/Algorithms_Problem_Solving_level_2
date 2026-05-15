@@ -3,7 +3,7 @@
 #include <ctime>   
 #include <cmath>
 
-using namespace std;
+using namespace s      td;
 
 enum enPrime
 {
