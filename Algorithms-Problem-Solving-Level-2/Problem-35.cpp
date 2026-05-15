@@ -1,6 +1,6 @@
        #include <iostream>
 #include <cstdlib>
-#include <time.h>
+#include <time.h>     
 using namespace std;
 
 int Read_Positive_Number(string Message)
