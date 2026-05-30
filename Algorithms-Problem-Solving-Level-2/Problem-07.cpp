@@ -7,7 +7,7 @@ int ReadPositiveNumber( string Message)
 
     int Number = 0;
 
-    do
+    do  
     {
         cout << Message;
         cin >> Number;
