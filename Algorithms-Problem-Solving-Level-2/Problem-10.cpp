@@ -5,7 +5,7 @@ using namespace std;
 int ReadPositiveNumber(string Message)
 {
 
-    int Number = 0;
+    short Number = 0;
 
     do
     {
