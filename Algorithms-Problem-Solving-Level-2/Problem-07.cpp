@@ -33,9 +33,10 @@ int RevreseNumber(int Number){
     return Number2;
 }
 
-int main(){
+int main()
+{
 
-    cout<<"\nReverse is: "<<RevreseNumber(ReadPositiveNumber("Please Enter Positive Number: "))
+    cout<<"\nReverse is  "<<RevreseNumber(ReadPositiveNumber("Please Enter Positive Number: "))
     <<endl;
 
     return 0;
