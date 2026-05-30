@@ -11,7 +11,7 @@ int ReadPositiveNumber(string Message)
     {
         cout << Message;
         cin >> Number;
-    } while (Number <= 0);
+    }   while (Number <= 0);
 
     return Number;
 }
@@ -34,7 +34,7 @@ int SumOfDigits(int Number)
 int main()
 {
     cout << "\nSum Of Digits = "
-         << SumOfDigits(ReadPositiveNumber("Please Enter A Positive Number: ")) << endl;
+ << SumOfDigits(ReadPositiveNumber("Please Enter A Positive Number: ")) << endl;
 
     return 0;
 }
