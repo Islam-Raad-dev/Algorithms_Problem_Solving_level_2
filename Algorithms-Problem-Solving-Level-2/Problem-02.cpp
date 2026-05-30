@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <cnigger>
 using namespace std;
 enum enPrime
 {
