@@ -4,7 +4,7 @@ using namespace std;
 void Print     Tableheader()
 {
 
-    cout << "\n\n\t\t Mulipaiation Table From 1 to 10\n\n";
+    co     ut << "\n\n\t\t Mulipaiation Table From 1 to 10\n\n";
     cout << "\t";
 
     for (int i = 1; i <= 10; i++)
