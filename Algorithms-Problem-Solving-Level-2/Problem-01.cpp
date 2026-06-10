@@ -1,7 +1,7 @@
      #include <iostream>
 using namespace std;
 
-void PrintTableheader()
+void Print     Tableheader()
 {
 
     cout << "\n\n\t\t Mulipaiation Table From 1 to 10\n\n";
