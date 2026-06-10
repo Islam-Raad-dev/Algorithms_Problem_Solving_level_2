@@ -2,7 +2,7 @@
 using namespace std;
 
 void Print     Tableheader()
-{
+{     
 
     co     ut << "\n\n\t\t Mulipaiation Table From 1 to 10\n\n";
     cout << "\t";
